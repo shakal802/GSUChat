@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F76382101E9AB29F0079A9DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763820F1E9AB29F0079A9DB /* AppDelegate.swift */; };
+		F76382121E9AB29F0079A9DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76382111E9AB29F0079A9DB /* ViewController.swift */; };
+		F76382151E9AB29F0079A9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76382131E9AB29F0079A9DB /* Main.storyboard */; };
+		F76382171E9AB29F0079A9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76382161E9AB29F0079A9DB /* Assets.xcassets */; };
+		F763821A1E9AB29F0079A9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76382181E9AB29F0079A9DB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F763820C1E9AB29F0079A9DB /* GSUChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSUChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F763820F1E9AB29F0079A9DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F76382111E9AB29F0079A9DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F76382141E9AB29F0079A9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76382161E9AB29F0079A9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76382191E9AB29F0079A9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F763821B1E9AB29F0079A9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76382091E9AB29E0079A9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F76382031E9AB29E0079A9DB = {
+			isa = PBXGroup;
+			children = (
+				F763820E1E9AB29F0079A9DB /* GSUChat */,
+				F763820D1E9AB29F0079A9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F763820D1E9AB29F0079A9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F763820C1E9AB29F0079A9DB /* GSUChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F763820E1E9AB29F0079A9DB /* GSUChat */ = {
+			isa = PBXGroup;
+			children = (
+				F763820F1E9AB29F0079A9DB /* AppDelegate.swift */,
+				F76382111E9AB29F0079A9DB /* ViewController.swift */,
+				F76382131E9AB29F0079A9DB /* Main.storyboard */,
+				F76382161E9AB29F0079A9DB /* Assets.xcassets */,
+				F76382181E9AB29F0079A9DB /* LaunchScreen.storyboard */,
+				F763821B1E9AB29F0079A9DB /* Info.plist */,
+			);
+			path = GSUChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F763820B1E9AB29E0079A9DB /* GSUChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F763821E1E9AB29F0079A9DB /* Build configuration list for PBXNativeTarget "GSUChat" */;
+			buildPhases = (
+				F76382081E9AB29E0079A9DB /* Sources */,
+				F76382091E9AB29E0079A9DB /* Frameworks */,
+				F763820A1E9AB29E0079A9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSUChat;
+			productName = GSUChat;
+			productReference = F763820C1E9AB29F0079A9DB /* GSUChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76382041E9AB29E0079A9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Shakal Uddin";
+				TargetAttributes = {
+					F763820B1E9AB29E0079A9DB = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6H4CU383PL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F76382071E9AB29E0079A9DB /* Build configuration list for PBXProject "GSUChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76382031E9AB29E0079A9DB;
+			productRefGroup = F763820D1E9AB29F0079A9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F763820B1E9AB29E0079A9DB /* GSUChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F763820A1E9AB29E0079A9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F763821A1E9AB29F0079A9DB /* LaunchScreen.storyboard in Resources */,
+				F76382171E9AB29F0079A9DB /* Assets.xcassets in Resources */,
+				F76382151E9AB29F0079A9DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76382081E9AB29E0079A9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76382121E9AB29F0079A9DB /* ViewController.swift in Sources */,
+				F76382101E9AB29F0079A9DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F76382131E9AB29F0079A9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76382141E9AB29F0079A9DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F76382181E9AB29F0079A9DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76382191E9AB29F0079A9DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F763821C1E9AB29F0079A9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F763821D1E9AB29F0079A9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F763821F1E9AB29F0079A9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H4CU383PL;
+				INFOPLIST_FILE = GSUChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakaluddin.GSUChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F76382201E9AB29F0079A9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H4CU383PL;
+				INFOPLIST_FILE = GSUChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakaluddin.GSUChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76382071E9AB29E0079A9DB /* Build configuration list for PBXProject "GSUChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F763821C1E9AB29F0079A9DB /* Debug */,
+				F763821D1E9AB29F0079A9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F763821E1E9AB29F0079A9DB /* Build configuration list for PBXNativeTarget "GSUChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F763821F1E9AB29F0079A9DB /* Debug */,
+				F76382201E9AB29F0079A9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76382041E9AB29E0079A9DB /* Project object */;
+}
