@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17DD7BFA9381EAA530912B2A /* Pods_GSUChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EAACA4015C54B839FDE61F /* Pods_GSUChat.framework */; };
 		F76382101E9AB29F0079A9DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763820F1E9AB29F0079A9DB /* AppDelegate.swift */; };
-		F76382121E9AB29F0079A9DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76382111E9AB29F0079A9DB /* ViewController.swift */; };
+		F76382121E9AB29F0079A9DB /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76382111E9AB29F0079A9DB /* MessagesController.swift */; };
 		F76382151E9AB29F0079A9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76382131E9AB29F0079A9DB /* Main.storyboard */; };
 		F76382171E9AB29F0079A9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76382161E9AB29F0079A9DB /* Assets.xcassets */; };
 		F763821A1E9AB29F0079A9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76382181E9AB29F0079A9DB /* LaunchScreen.storyboard */; };
+		F76382241E9AB8360079A9DB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76382231E9AB8360079A9DB /* LoginController.swift */; };
+		F76382261E9AD4300079A9DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F76382251E9AD4300079A9DB /* GoogleService-Info.plist */; };
+		F76382281E9AF8360079A9DB /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76382271E9AF8360079A9DB /* NewMessageController.swift */; };
+		F763822B1E9AF9EF0079A9DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763822A1E9AF9EF0079A9DB /* User.swift */; };
+		F763822D1E9AFDF50079A9DB /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763822C1E9AFDF50079A9DB /* LoginController+handlers.swift */; };
+		F76382301E9B06570079A9DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763822F1E9B06570079A9DB /* Extensions.swift */; };
+		F76382321E9B10460079A9DB /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76382311E9B10460079A9DB /* ChatLogController.swift */; };
+		F76382341E9B15070079A9DB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76382331E9B15070079A9DB /* Message.swift */; };
+		F76382371E9B20AB0079A9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76382361E9B20AB0079A9DB /* Main.storyboard */; };
+		F7BC40E51E9B24A200AF9B98 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC40E41E9B24A200AF9B98 /* UserCell.swift */; };
+		F7BC40E71E9B2C3B00AF9B98 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC40E61E9B2C3B00AF9B98 /* ChatMessageCell.swift */; };
+		F7BC40E91E9B426A00AF9B98 /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC40E81E9B426A00AF9B98 /* ChatInputContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33EAACA4015C54B839FDE61F /* Pods_GSUChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSUChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B46C11443791423DD82F6F /* Pods-GSUChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSUChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSUChat/Pods-GSUChat.debug.xcconfig"; sourceTree = "<group>"; };
+		E9587EDBA89C79E3488CAA24 /* Pods-GSUChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSUChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSUChat/Pods-GSUChat.release.xcconfig"; sourceTree = "<group>"; };
 		F763820C1E9AB29F0079A9DB /* GSUChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSUChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F763820F1E9AB29F0079A9DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F76382111E9AB29F0079A9DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F76382111E9AB29F0079A9DB /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		F76382141E9AB29F0079A9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F76382161E9AB29F0079A9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76382191E9AB29F0079A9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F763821B1E9AB29F0079A9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76382231E9AB8360079A9DB /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F76382251E9AD4300079A9DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F76382271E9AF8360079A9DB /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		F763822A1E9AF9EF0079A9DB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F763822C1E9AFDF50079A9DB /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		F763822F1E9B06570079A9DB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F76382311E9B10460079A9DB /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		F76382331E9B15070079A9DB /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F76382351E9B20AB0079A9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7BC40E41E9B24A200AF9B98 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F7BC40E61E9B2C3B00AF9B98 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		F7BC40E81E9B426A00AF9B98 /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DD7BFA9381EAA530912B2A /* Pods_GSUChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CB864C4EC85C3067EEE195B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33EAACA4015C54B839FDE61F /* Pods_GSUChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3354ECE93F9B1863FDCE66B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3B46C11443791423DD82F6F /* Pods-GSUChat.debug.xcconfig */,
+				E9587EDBA89C79E3488CAA24 /* Pods-GSUChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F76382031E9AB29E0079A9DB = {
 			isa = PBXGroup;
 			children = (
 				F763820E1E9AB29F0079A9DB /* GSUChat */,
 				F763820D1E9AB29F0079A9DB /* Products */,
+				F3354ECE93F9B1863FDCE66B /* Pods */,
+				9CB864C4EC85C3067EEE195B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,58 @@
 		F763820E1E9AB29F0079A9DB /* GSUChat */ = {
 			isa = PBXGroup;
 			children = (
+				F7BC40E31E9B248200AF9B98 /* View */,
+				F763822E1E9B06440079A9DB /* Helpers */,
+				F76382291E9AF9CE0079A9DB /* Model */,
+				F76382221E9AB7BB0079A9DB /* Controller */,
 				F763820F1E9AB29F0079A9DB /* AppDelegate.swift */,
-				F76382111E9AB29F0079A9DB /* ViewController.swift */,
+				F76382361E9B20AB0079A9DB /* Main.storyboard */,
 				F76382131E9AB29F0079A9DB /* Main.storyboard */,
 				F76382161E9AB29F0079A9DB /* Assets.xcassets */,
 				F76382181E9AB29F0079A9DB /* LaunchScreen.storyboard */,
 				F763821B1E9AB29F0079A9DB /* Info.plist */,
+				F76382251E9AD4300079A9DB /* GoogleService-Info.plist */,
 			);
 			path = GSUChat;
+			sourceTree = "<group>";
+		};
+		F76382221E9AB7BB0079A9DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F76382231E9AB8360079A9DB /* LoginController.swift */,
+				F76382111E9AB29F0079A9DB /* MessagesController.swift */,
+				F76382271E9AF8360079A9DB /* NewMessageController.swift */,
+				F763822C1E9AFDF50079A9DB /* LoginController+handlers.swift */,
+				F76382311E9B10460079A9DB /* ChatLogController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F76382291E9AF9CE0079A9DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F763822A1E9AF9EF0079A9DB /* User.swift */,
+				F76382331E9B15070079A9DB /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F763822E1E9B06440079A9DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F763822F1E9B06570079A9DB /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F7BC40E31E9B248200AF9B98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC40E41E9B24A200AF9B98 /* UserCell.swift */,
+				F7BC40E61E9B2C3B00AF9B98 /* ChatMessageCell.swift */,
+				F7BC40E81E9B426A00AF9B98 /* ChatInputContainerView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F763821E1E9AB29F0079A9DB /* Build configuration list for PBXNativeTarget "GSUChat" */;
 			buildPhases = (
+				C5B8FA95F6D6208163099672 /* [CP] Check Pods Manifest.lock */,
 				F76382081E9AB29E0079A9DB /* Sources */,
 				F76382091E9AB29E0079A9DB /* Frameworks */,
 				F763820A1E9AB29E0079A9DB /* Resources */,
+				6C92141BFFD13C876A60636A /* [CP] Embed Pods Frameworks */,
+				CB909920B67970447ECE068C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F763821A1E9AB29F0079A9DB /* LaunchScreen.storyboard in Resources */,
+				F76382371E9B20AB0079A9DB /* Main.storyboard in Resources */,
+				F76382261E9AD4300079A9DB /* GoogleService-Info.plist in Resources */,
 				F76382171E9AB29F0079A9DB /* Assets.xcassets in Resources */,
 				F76382151E9AB29F0079A9DB /* Main.storyboard in Resources */,
 			);
@@ -132,13 +229,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C92141BFFD13C876A60636A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSUChat/Pods-GSUChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B8FA95F6D6208163099672 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB909920B67970447ECE068C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSUChat/Pods-GSUChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F76382081E9AB29E0079A9DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76382121E9AB29F0079A9DB /* ViewController.swift in Sources */,
+				F76382321E9B10460079A9DB /* ChatLogController.swift in Sources */,
+				F7BC40E91E9B426A00AF9B98 /* ChatInputContainerView.swift in Sources */,
+				F76382281E9AF8360079A9DB /* NewMessageController.swift in Sources */,
+				F76382121E9AB29F0079A9DB /* MessagesController.swift in Sources */,
+				F76382341E9B15070079A9DB /* Message.swift in Sources */,
+				F763822D1E9AFDF50079A9DB /* LoginController+handlers.swift in Sources */,
+				F76382241E9AB8360079A9DB /* LoginController.swift in Sources */,
+				F763822B1E9AF9EF0079A9DB /* User.swift in Sources */,
+				F7BC40E71E9B2C3B00AF9B98 /* ChatMessageCell.swift in Sources */,
 				F76382101E9AB29F0079A9DB /* AppDelegate.swift in Sources */,
+				F7BC40E51E9B24A200AF9B98 /* UserCell.swift in Sources */,
+				F76382301E9B06570079A9DB /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +314,15 @@
 				F76382191E9AB29F0079A9DB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F76382361E9B20AB0079A9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76382351E9B20AB0079A9DB /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../../../../Downloads/NewMessenger 14/NewMessenger";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,10 +425,12 @@
 		};
 		F763821F1E9AB29F0079A9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B46C11443791423DD82F6F /* Pods-GSUChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6H4CU383PL;
 				INFOPLIST_FILE = GSUChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakaluddin.GSUChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,10 +440,12 @@
 		};
 		F76382201E9AB29F0079A9DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9587EDBA89C79E3488CAA24 /* Pods-GSUChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6H4CU383PL;
 				INFOPLIST_FILE = GSUChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakaluddin.GSUChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +472,7 @@
 				F76382201E9AB29F0079A9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
