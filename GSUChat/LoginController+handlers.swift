@@ -2,7 +2,7 @@
 //  LoginController+handlers.swift
 //  GSUChat
 //
-//  Created by Shakal Uddin on 2/9/17.
+//  Created by Shakal Uddin on 2/09/17.
 //  Copyright © 2017 Shakal Uddin. All rights reserved.
 // Database Userbase is https://gsuchat-57a44.firebaseio.com"
 
