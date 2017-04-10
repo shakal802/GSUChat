@@ -74,7 +74,7 @@ class LoginController: UIViewController {
     
     let emailTextField: UITextField = {
         let tf = UITextField()
-        tf.placeholder = "Email address"
+        tf.placeholder = "Email Address"
         tf.translatesAutoresizingMaskIntoConstraints = false
         return tf
     }()
@@ -141,7 +141,7 @@ class LoginController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor(r: 61, g: 91, b: 151)
+        view.backgroundColor = UIColor(r: 39, g: 87, b: 171)
         
         view.addSubview(inputsContainerView)
         view.addSubview(loginRegisterButton)
@@ -228,7 +228,7 @@ class LoginController: UIViewController {
     
     func setupProfileimageView() {
      
-        profileImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -20).isActive = true
+        profileImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         profileImageView.bottomAnchor.constraint(equalTo: loginRegisterSegmentedControl.topAnchor, constant: -12).isActive = true
         profileImageView.widthAnchor.constraint(equalToConstant: 150).isActive = true
         profileImageView.heightAnchor.constraint(equalToConstant: 150).isActive = true
