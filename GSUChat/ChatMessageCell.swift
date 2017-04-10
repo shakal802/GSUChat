@@ -37,7 +37,7 @@ class ChatMessageCell: UICollectionViewCell {
     var player: AVPlayer?
     
     func handlePlay() {
-        if let videoUrlString = message?.videoUrl, let url = URL(string: videoUrlString) { // "string" without a capital letter, not "String"...
+        if let videoUrlString = message?.videoUrl, let url = URL(string: videoUrlString) { 
             player = AVPlayer(url: url)
             
             playerLayer = AVPlayerLayer(player: player)

@@ -26,7 +26,7 @@ extension LoginController: UIImagePickerControllerDelegate, UINavigationControll
                 return
             }
             
-            // Successfully authenticated user
+         
             let imageName = NSUUID().uuidString
             let storageRef = FIRStorage.storage().reference().child("profile_images").child("\(imageName).jpg")
             
@@ -59,7 +59,7 @@ extension LoginController: UIImagePickerControllerDelegate, UINavigationControll
             }
             
             let user = User()
-            // This setter potentially crashes if keys don't match
+       
             user.setValuesForKeys(values)
             self.messagesController?.setupNavBarWithUser(user: user)
             

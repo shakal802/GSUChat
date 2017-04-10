@@ -39,7 +39,7 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
                 self.messages.append(Message(dictionary: dictionary))
                 DispatchQueue.main.async(execute: {
                     self.collectionView?.reloadData()
-                    // Scroll to the last index
+                
                     let indexPath = IndexPath(item: self.messages.count - 1, section: 0)
                     self.collectionView?.scrollToItem(at: indexPath, at: .bottom, animated: true)
                 })
@@ -83,10 +83,10 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
         if let videoUrl = info[UIImagePickerControllerMediaURL] as? URL {
-            // We selected a video
+         
             handleVideoSelectedForUrl(url: videoUrl)
         } else {
-            // We selected an image
+         
             handleImageSelectedForInfo(info: info)
         }
         dismiss(animated: true, completion: nil)
@@ -242,7 +242,7 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
             cell.bubbleWidthAnchor?.constant = estimatedFrameForText(text: text).width + 32
             cell.textView.isHidden = false
         } else if message.imageUrl != nil {
-            // Fall in here if it's an image message
+           
             cell.bubbleWidthAnchor?.constant = 200
             cell.textView.isHidden = true
         }
@@ -258,7 +258,7 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
         }
         
         if message.fromId == FIRAuth.auth()?.currentUser?.uid {
-            // Outgoing blue
+         
             cell.bubbleView.backgroundColor = ChatMessageCell.blueColor
             cell.textView.textColor = .white
             cell.profileImageView.isHidden = true
@@ -266,7 +266,7 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
             cell.bubbleViewRightAnchor?.isActive = true
             cell.bubbleViewLeftAnchor?.isActive = false
         } else {
-            // Incoming gray
+      
             cell.bubbleView.backgroundColor = UIColor(r: 240, g: 240, b: 240)
             cell.textView.textColor = .black
             cell.profileImageView.isHidden = false
@@ -330,7 +330,7 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
         let timestamp = NSNumber(value: Int(Date().timeIntervalSince1970))
         var values: [String: Any] = ["toId": toId as Any, "fromId": fromId as Any, "timestamp": timestamp]
         
-        // key $0, value $1
+       
         properties.forEach({values[$0] = $1})
         
         childRef.updateChildValues(values) { (error, ref) in
@@ -354,7 +354,7 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
     var blackBackgroundView: UIView?
     var startingImageView: UIImageView?
     
-    // My custom zooming logic
+ 
     func performZoomInForStartingImageView(startingImageView: UIImageView) {
         self.startingImageView = startingImageView
         self.startingImageView?.isHidden = true
@@ -386,7 +386,7 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
                 zoomingImageView.center = keyWindow.center
                 
             }, completion: { (completed: Bool) in
-                // Do nothing
+         
             })
         }
     }

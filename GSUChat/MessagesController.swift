@@ -49,10 +49,7 @@ class MessagesController: UITableViewController {
                 self.messagesDictionary.removeValue(forKey: chatPartnerId)
                 self.attemptReloadOfTable()
                 
-                //            // This is one way of updating the table, but it's actually not that safe...
-                //            self.messages.remove(at: indexPath.row)
-                //            self.tableView.deleteRows(at: [indexPath], with: .automatic)
-            })
+                        })
         }
         
     }
@@ -114,7 +111,7 @@ class MessagesController: UITableViewController {
             return message1.timestamp!.intValue > message2.timestamp!.intValue
         })
         
-        // this will crash because of background thread, so lets call this on dispatch_async main thread
+       
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }

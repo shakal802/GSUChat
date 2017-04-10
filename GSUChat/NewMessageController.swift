@@ -33,12 +33,12 @@ class NewMessageController: UITableViewController {
                 let user = User()
                 user.id = snapshot.key
                 
-                // If you use this setter, your app will crash if your class properties don't exactly match up with the firebase dictionary keys
+              
                 user.setValuesForKeys(dictionary)
                 
                 self.users.append(user)
                 
-                // This will crash because of background thread, so let's use dispatch_async to fix
+               
                 DispatchQueue.main.async(execute: {
                     self.tableView.reloadData()
                 })

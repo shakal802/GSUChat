@@ -43,7 +43,7 @@ class ChatInputContainerView: UIView, UITextFieldDelegate {
         
         addSubview(uploadImageView)
         
-        // Constraint anchors: x, y, width, height
+   
         uploadImageView.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
         uploadImageView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
         uploadImageView.widthAnchor.constraint(equalToConstant: 44).isActive = true
@@ -56,7 +56,7 @@ class ChatInputContainerView: UIView, UITextFieldDelegate {
         
         addSubview(sendButton)
         
-        // Constraint anchors: x, y, width, height
+       
         sendButton.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
         sendButton.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
         sendButton.widthAnchor.constraint(equalToConstant: 80).isActive = true
@@ -64,7 +64,6 @@ class ChatInputContainerView: UIView, UITextFieldDelegate {
         
         addSubview(self.inputTextField)
         
-        // Constraint anchors: x, y, width, height
         self.inputTextField.leftAnchor.constraint(equalTo: uploadImageView.rightAnchor, constant: 8).isActive = true
         self.inputTextField.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
         self.inputTextField.rightAnchor.constraint(equalTo: sendButton.leftAnchor).isActive = true
@@ -76,7 +75,7 @@ class ChatInputContainerView: UIView, UITextFieldDelegate {
         
         addSubview(separatorLineView)
         
-        // Constraint anchors: x, y, width, height
+     
         separatorLineView.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
         separatorLineView.topAnchor.constraint(equalTo: topAnchor).isActive = true
         separatorLineView.widthAnchor.constraint(equalTo: widthAnchor).isActive = true
