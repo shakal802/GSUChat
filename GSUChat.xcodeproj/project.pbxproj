@@ -21,7 +21,6 @@
 		F76382301E9B06570079A9DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763822F1E9B06570079A9DB /* Extensions.swift */; };
 		F76382321E9B10460079A9DB /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76382311E9B10460079A9DB /* ChatLogController.swift */; };
 		F76382341E9B15070079A9DB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76382331E9B15070079A9DB /* Message.swift */; };
-		F76382371E9B20AB0079A9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76382361E9B20AB0079A9DB /* Main.storyboard */; };
 		F7BC40E51E9B24A200AF9B98 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC40E41E9B24A200AF9B98 /* UserCell.swift */; };
 		F7BC40E71E9B2C3B00AF9B98 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC40E61E9B2C3B00AF9B98 /* ChatMessageCell.swift */; };
 		F7BC40E91E9B426A00AF9B98 /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC40E81E9B426A00AF9B98 /* ChatInputContainerView.swift */; };
@@ -46,7 +45,6 @@
 		F763822F1E9B06570079A9DB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F76382311E9B10460079A9DB /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 		F76382331E9B15070079A9DB /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		F76382351E9B20AB0079A9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7BC40E41E9B24A200AF9B98 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		F7BC40E61E9B2C3B00AF9B98 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		F7BC40E81E9B426A00AF9B98 /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				F76382291E9AF9CE0079A9DB /* Model */,
 				F76382221E9AB7BB0079A9DB /* Controller */,
 				F763820F1E9AB29F0079A9DB /* AppDelegate.swift */,
-				F76382361E9B20AB0079A9DB /* Main.storyboard */,
 				F76382131E9AB29F0079A9DB /* Main.storyboard */,
 				F76382161E9AB29F0079A9DB /* Assets.xcassets */,
 				F76382181E9AB29F0079A9DB /* LaunchScreen.storyboard */,
@@ -220,7 +217,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F763821A1E9AB29F0079A9DB /* LaunchScreen.storyboard in Resources */,
-				F76382371E9B20AB0079A9DB /* Main.storyboard in Resources */,
 				F76382261E9AD4300079A9DB /* GoogleService-Info.plist in Resources */,
 				F76382171E9AB29F0079A9DB /* Assets.xcassets in Resources */,
 				F76382151E9AB29F0079A9DB /* Main.storyboard in Resources */,
@@ -314,15 +310,6 @@
 				F76382191E9AB29F0079A9DB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		F76382361E9B20AB0079A9DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F76382351E9B20AB0079A9DB /* Base */,
-			);
-			name = Main.storyboard;
-			path = "../../../../../Downloads/NewMessenger 14/NewMessenger";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

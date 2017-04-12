@@ -393,7 +393,6 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
     
     func handleZoomOut(tapGesture: UITapGestureRecognizer) {
         if let zoomOutImageView = tapGesture.view {
-            // Need to animate back out to controller
             zoomOutImageView.layer.cornerRadius = 16
             zoomOutImageView.clipsToBounds = true
             
